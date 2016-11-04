@@ -35,4 +35,13 @@ def run_tests():
 
 # Edit this code
 def scorer(word):
+    count = 0
 
+    for letter in word:
+        if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+            count = count
+        elif letter == "q" or letter == "x" or letter == "y" or letter == "z":
+            count = count + 2
+        else:
+            count = count + 1
+    print (count)

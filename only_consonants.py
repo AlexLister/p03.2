@@ -30,4 +30,11 @@ def run_tests():
 
 # Edit this code
 def clue(word):
+    builder = ""
+    for cha in word:
+        if cha != "a" and cha != "e" and cha != "i" and cha != "o" and cha != "u":
+            builder = builder + cha
+
+    print (builder)
+            
 

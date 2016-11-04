@@ -25,4 +25,9 @@ def run_tests():
 
 # Edit this code
 def doubler(word):
+#harambe is a character because the charaters make up harambe
 
+    builder = ""
+    for harambe in word:
+        builder = builder + harambe * 2
+    print (builder)
