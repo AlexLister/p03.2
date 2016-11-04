@@ -8,13 +8,13 @@ Problem:
 Tests: 
   
      >>> vowels("hello") 
-     2 
+     2
      >>> vowels("world") 
-     1 
+     1
      >>> vowels("why") 
-     0 
+     0
      >>> vowels("beautiful") 
-     5 
+     5
   
 """ 
  
